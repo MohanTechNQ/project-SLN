@@ -1,0 +1,88 @@
+body{background-color:white ;
+     margin:0;
+	padding:0;
+	background-image:url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/Natural-Seamless-Light-Wood-Texture-1-copy-1.jpg?ssl=1");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #faf6f6;
+  color: #7adff3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
+header h1 {
+  font-size: 0.4;
+  
+  
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #91baec;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.logo img {
+  width: 25%;
+}
+
+h1{color:00B7C7;
+ text-decoration: underline;}
+p{font-size:20px ;}
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer img {
+  max-width: 15%;
+  height: auto;
+}
+
+footer h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+}
+
+footer p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+footer address {
+  font-style: normal;
+  margin-bottom: 5px;
+}
+
+footer a {
+  color: #0000ff;
+  text-decoration: none;
+}
+.contact {
+  text-align: right;
+}

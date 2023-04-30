@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #faf6f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #7adff3;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #7adff3;
+    padding-right: 20px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+.logo img {
+    width: 25%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.head h1 {
+  font-family: 'Alkatra', cursive;
+  color: #00b7c7;
+  font-weight: 200;
+  font-size: 38px;
+  padding: 20px 50px;
+}
+
+.about-window1 img {
+  width: 45%;
+  padding: 30px 100px;
+}
+
+.about-window1 {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.content h3 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #00b7c7;
+  padding: 35px 0;
+}
+
+.content {
+  padding: 50px 100px;
+}
+
+.content p {
+  line-height: 30px;
+  color: #878787;
+  font-size: 16px;
+}
+
+.price h4 span {
+  color: #00b7c7;
+  font-size: 32px;
+  padding: 40px 30px 30px;
+  border: 1px dotted #353535;
+  margin: 50px;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+}
+  
+  footer img {
+    max-width: 15%;
+    height: auto;
+    size-adjust: calc(10px 20px);
+  }
+  
+  footer h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+  }
+  
+  footer p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  footer address {
+    font-style: normal;
+    margin-bottom: 5px;
+  }
+  
+  footer a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+  .contact {
+    text-align: right;
+  } 

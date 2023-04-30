@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <title>project</title>
+</head>
+<header>
+        <div class="logo">
+            <img src="SLN logo.png" alt="SLN uPVC Doors and Windows logo">
+
+        </div>
+       
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+                <li><a href="company.html">Company</a></li>
+				<li><a href="product.html">Windows</a></li>
+				<li><a href="doors.html">Doors</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+<body>
+    <div class="full-img" id="fullImgBox">
+        <img src="image11.jpg" id="fullImg"> 
+     <span onclick="closeFullImg()">x</span>   
+    </div>
+    
+    <div class="img-gallary" >
+        <div class="container">
+        <div class="grid-item">
+         
+        <img src="image1.jpg" width="80%" height="200px" style="box-shadow: 5px 5px rgb(187, 180, 180);"  onclick="openFullImg(this.src)">
+        <div class="desc">patio entrance home exterior<br>
+            doorway entry house deck</div>
+    </div> 
+    
+        <div class="grid-item">
+            
+            <img src="image2.jpg" width="80%" height="200px" style="box-shadow: 5px 5px rgb(187, 180, 180);" onclick="openFullImg(this.src)">
+            <div class="desc">Interior Of Empty Lounge In New Home</div>
+        </div>
+    
+            <div class="grid-item">
+                
+                <img src="image3.jpg" width="80%" height="200px" style="box-shadow: 5px 5px rgb(187, 180, 180);" onclick="openFullImg(this.src)">
+                <div class="desc">The Lift and Slide System has Become Popular</div>
+            </div>
+        
+                <div class="grid-item">
+                
+                    <img src="image4.jpg" width="80%" height="200px" style="box-shadow: 5px 5px rgb(187, 180, 180);" onclick="openFullImg(this.src)">
+                    <div class="desc">sliding door</div>
+                </div>
+            
+                    <div class="grid-item">
+                        
+                         <img src="image5.jpg" width="50px" height="200px" style="box-shadow: 5px 5px rgb(187, 180, 180);" onclick="openFullImg(this.src)">
+                         <div class="desc">Thoughtful Woman At The Window
+                            Woman is looking out of her patio door windows with a cup of tea in her hands</div>
+                        </div>
+                    
+                         <div class="grid-item">
+                            
+                            <img src="image6.jpg" width="80%" height="200px" style="box-shadow: 5px 5px rgb(187, 180, 180);" onclick="openFullImg(this.src)">
+                            <div class="desc">A wall of windows and French doors looking out to a leaf scattered garden.</div>
+                        </div>
+                    
+                            <div class="grid-item">
+                                
+                                <img src="image7.jpg" width="80%" height="200px" style="box-shadow: 5px 5px rgb(187, 180, 180);" onclick="openFullImg(this.src)">
+                                <div class="desc">Bi-Fold Doors Offer the Flexibility of Having a Bigger Opening When Needed</div>
+                            </div>
+                        
+                                <div class="grid-item">
+                                     <img src="image8.jpg" width="80%" height="200px" style="box-shadow: 5px 5px rgb(187, 180, 180);" onclick="openFullImg(this.src)">
+                                     <div class="desc">a door with window</div>
+                                    </div>
+                                    <div class="grid-item">
+                                        <img src="image9.jpg" width="80%" height="200px" style="box-shadow: 5px 5px rgb(187, 180, 180);" onclick="openFullImg(this.src)">
+                                        <div class="desc">Narrow Corridors with Multiple Sliding Doors</div>
+                                       </div>
+                                   
+    </div>
+    </div>
+    
+    <script>
+        var fullImgBox = document.getElementById("fullImgBox")
+        var fullImg = document.getElementById("fullImg")
+        
+
+        function openFullImg(pic){
+            fullImgBox.style.display ="flex";
+            fullImg.src = pic;
+
+        }
+        function closeFullImg(){
+            fullImgBox.style.display ="none";
+        }
+    </script>
+	<footer>
+			<img src="SLN logo.png" alt="">
+		<div class="contact">
+			<p>&copy; 2023 SLN uPVC Doors and Windows </p>
+			<h2>Contact Us</h2>
+			<p>SLN BUILDING SOLUTIONS<br>Sri Lakshmi Narasimha Building Solutions<br>
+				Address: 100/18-2-5, Vishwanathapuram, Kadapa, Andhra Pradesh-516004<br>+91 7780295835</p>
+			<p>Email: slnupvc@gmail.com</p>
+		</div>
+	 </footer>
+</body>
+</html>
